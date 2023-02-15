@@ -1,0 +1,361 @@
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@font-face {
+  font-family: gillsanslight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+@font-face {
+  font-family: primanovacondensed;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@media only screen and (max-width: 700px) {
+  .ClientOne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ClientOne .text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ClientOne .text .Quote {
+    margin-left: -350px;
+  }
+  .ClientTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ClientTwo .text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ClientTwo .text .Quote {
+    margin-left: -350px;
+  }
+  .Clients {
+    position: relative;
+  }
+  .Clients .Quote {
+    width: 400px;
+  }
+  .Clients .name {
+    position: absolute;
+    left: -300px;
+    margin-top: 120px;
+  }
+}
+.AboutContent {
+  margin-top: 200px;
+  max-height: 100%;
+  max-width: 90%;
+  height: 100%;
+  width: 90%;
+}
+.AboutContent .header {
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+.AboutContent .header span {
+  font-size: 60px;
+  border-bottom: 2px black solid;
+  font-family: primanovacondensed;
+}
+.AboutContent .text {
+  padding: 10px;
+  width: 85%;
+  margin-left: 100px;
+}
+.AboutContent .text span {
+  font-size: 16px;
+  font-family: gillsansbold;
+}
+
+.Clients {
+  margin-left: 100px;
+  margin-top: 100px;
+  height: 50%;
+  width: 100%;
+}
+.Clients .header span {
+  margin-left: -110px;
+}
+.Clients .ClientOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Clients .ClientOne .clientImg img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 260px;
+}
+.Clients .ClientOne .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+.Clients .ClientOne .text .Quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Clients .ClientOne .text .Quote span {
+  font-family: gillsansbold;
+}
+.Clients .ClientOne .text .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-left: 600px;
+}
+.Clients .ClientOne .text .name span {
+  font-family: primanovacondensed;
+}
+.Clients .ClientTwo {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Clients .ClientTwo .clientImg img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 260px;
+}
+.Clients .ClientTwo .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+.Clients .ClientTwo .text .Quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Clients .ClientTwo .text .Quote span {
+  font-family: gillsansbold;
+}
+.Clients .ClientTwo .text .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-left: 600px;
+}
+.Clients .ClientTwo .text .name span {
+  font-family: primanovacondensed;
+}
+
+@font-face {
+  font-family: gillsansbold;
+  src: url(../fonts/GillSans-Bold.ttf);
+}
+@media only screen and (max-width: 900px) {
+  nav {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .links {
+    position: fixed;
+    top: 100px;
+    left: 80px;
+  }
+  nav .logo {
+    position: fixed;
+    left: 210px;
+    top: 35px;
+  }
+  footer .copyright {
+    margin-left: 50px;
+  }
+}
+nav {
+  height: 0;
+  top: 50px;
+  left: 100px;
+  max-width: 100%;
+  position: fixed;
+  background-color: transparent;
+  width: 800px;
+  max-width: 800px;
+  min-width: 100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .links {
+  height: 42px;
+  width: 300px;
+  white-space: nowrap;
+  margin-top: 40px;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: gillsansbold;
+}
+nav .links span {
+  margin-left: 5px;
+  color: black;
+}
+nav .logo {
+  border: black 2px solid;
+  height: 42px;
+  width: 80px;
+}
+nav .logo span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-left: 17px;
+  font-size: 20px;
+  font-family: gillsansbold;
+  white-space: nowrap;
+  color: black;
+  width: 92px;
+  height: 42px;
+}
+
+.bottom {
+  width: 90%;
+  border-bottom: 2px black solid;
+  position: fixed;
+  top: 80px;
+  left: 60px;
+}
+
+footer {
+  margin-top: 90px;
+  padding: 0;
+  height: 100px;
+  width: 120%;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .copyright span {
+  font-family: gillsansbold;
+  font-size: 12px;
+  color: white;
+}
+footer .logo {
+  border: white 2px solid;
+  height: 42px;
+  width: 80px;
+}
+footer .logo span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-left: 17px;
+  font-size: 20px;
+  font-family: gillsansbold;
+  white-space: nowrap;
+  color: white;
+  width: 92px;
+  height: 42px;
+}
+footer .socials img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  width: 150px;
+}
